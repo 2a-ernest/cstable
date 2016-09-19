@@ -4,7 +4,7 @@
 var webApp = angular.module('webApp',['datatables','datatables.bootstrap']);
 webApp.controller('ctrl',function($http,$scope,DTOptionsBuilder, DTColumnBuilder,DTColumnDefBuilder){
 	$scope.dT = {};
-	$scope.dT.dtOptions = DTOptionsBuilder.newOptions().withPaginationType('simple_numbers');
+	$scope.dT.dtOptions = DTOptionsBuilder.newOptions().withPaginationType('simple_numbers').withBootstrap();
 
 	$scope.dT.dtColumnDefs = [
 
