@@ -2,6 +2,7 @@
 <html>
 <head >
 	<title>Cs Table</title>
+	<meta name="description" content="Timetable,class schedule,classes,times,schedule,courses,lecturers">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.superhero.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.cerulean.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-datatables/0.5.5/css/angular-datatables.min.css" />
