@@ -1,0 +1,903 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>EMMANUEL</Author>
+  <LastAuthor>ASUS</LastAuthor>
+  <LastPrinted>2016-09-13T14:08:26Z</LastPrinted>
+  <Created>2013-01-08T18:13:36Z</Created>
+  <LastSaved>2016-09-21T16:53:58Z</LastSaved>
+  <Company>Toshiba</Company>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#DD0806</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#1FB714</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000D4</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FCF305</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#F20884</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00ABEA</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#900000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#006411</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000090</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#90713A</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#4600A5</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#63AAFE</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#DD2D32</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFF58C</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#4EE257</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#6711FF</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FEA746</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#865357</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#A2BD90</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#63AAFE</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#DD2D32</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFF58C</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#4EE257</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#6711FF</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#FEA746</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#865357</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#A2BD90</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16416</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>456</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Abadi MT Condensed Extra Bold" ss:Size="12"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="47.4" ss:DefaultRowHeight="14.4">
+   <Column ss:Width="103.8"/>
+   <Column ss:Width="432"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87.6"/>
+   <Column ss:Width="101.4"/>
+   <Column ss:Index="6" ss:Width="93"/>
+   <Row ss:Height="15.600000000000001">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">LECTURER</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">COURSE CODE &amp; TITLE</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">CREDIT HRS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">CLASSROOM</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">DAYS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">TIMINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Adu-Sackey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH141 Algebra I </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R5</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Adu-Sackey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC370 Operations Research/INFT370 Management Science </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R5</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Adu-Sackey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH171 Introductory Math for Computer Science</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R6</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH 101 Algebra &amp; Trignometry      </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Adu-Sackey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH142 Algebra II </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R5</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH 113 Vectors &amp; Geometry </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH 213 Abstract Algebra </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH 215 Calculus II </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Boakye</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH172 Discrete and Continuous Mathematics  </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R5</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Boakye</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC430 Computer Simulation &amp; Systems Modeling </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R6</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Boakye</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC210 Numerical Methods     </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R6</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Charles Adjetey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC/INFT 425 Mobile Application Development(Elective 1)</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Charles Adjetey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC380 Compiler Design</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Christiana Pokuaa</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ENGL111 - Language and Writing Skills I (Sec A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:50pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Christiana Pokuaa</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ENGL112 - Language and Writing Skills II (Sec B)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.J Nortey Auditorium</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">D. Damoah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC230 Database System Design </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">D. Damoah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COCS114 Programming with C</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC250/INFT210 Computer Ethics </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC435/INFT470 Computer &amp; Cyber Forensics </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC255 Operating Systems</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT446/COSC446 Systems &amp; Network Administration</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:20PM-05:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Edward Danso Ansong</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT452 Enterprise Information Security</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Edward Danso Ansong</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC460/INFT410 Internet-Based Application System &amp; Development</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS LAB</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/F</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">12:20pm - 02:20pm/07:00AM-09:00AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ezekie Okoe</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT372 Network Project Management/COSC272 Data Communication &amp; Computer Network II</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ezekie Okoe</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC271 Data Communication &amp; Computer Network I </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">G. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT340 Computer Vision: Concepts and Applications </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">G. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC310 Computer Engineering </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">G. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC212  Computer Organization II </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">G. Laryea</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC130 Digital Electronics </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Abandoh-Sam</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC420 Distributed Systems  </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS LAB</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Abandoh-Sam</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC346 Software Engineering/INFT346 Software Development Life Cycle</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Abandoh-Sam</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC116 Introduction to Computer Science II</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Abandoh-Sam</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC221 Programming with C++</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Abandoh-Sam</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT420 Human-Computer Interaction</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Usher</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">BEIT415 Distributive and Collaborative Learning </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MET 210</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J. Usher</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">BEIT234 Education &amp; Planning and Management </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MET 211</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.K. Arthur</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC222 Programming with Java </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS LAB</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.K. Arthur</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT331Multimedia Application Systems Development I </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.K. Arthur</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT211 Computer Architecture and Organization/ COSC211 Computer Organization I</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.K. Arthur</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT360 Web Engineering &amp; Application Systems </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.K. Arthur</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC420 Advanced Systems Analysis and Design</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">James Agyin</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MATH282 Introduction to Statistics </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R6</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">K. Adu-Manu</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC331Computer Graphics I </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">K. Adu-Manu</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC115Introduction to Computer Science I  </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">K. Annan</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC257 Computer Architecture &amp; Microprocessor Systems </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS LAB</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row ss:Height="43.199999999999996">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">K. Annan</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC220 Digital Logic Design </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">         03:00pm - 05.00pm / 12:45AM-02:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Kwadwo Debrah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT110 Information Technology and  Society </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Kwadwo Debrah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC240 Systems Programming/INFT240 Adv. Programming with Applications Dev’t</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P. Amoako</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT 454 Advanced Database System Implementation &amp; Administration with ORACLE</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS LAB</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">O. Osei-Tutu</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">DVST 151 Development Mathematics                         </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">O. Osei-Tutu</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">EDST 228 Educational Statistics                                  </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">O. Osei-Tutu</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">STAT 371 Statistical Methods for Social Sciences       </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Forest Block R3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P. Amoako</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC351 Expert Systems &amp; Artificial Intelligence I </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P. Amoako</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COCS113 Elements of Programming</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P. Amoako</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC361 Data Structures &amp; Algorithm I/INFT361 Design &amp; Theory of Algorithms </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P. Amoako</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT116 Information Technology Foundation II</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">R. Doh</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC115Introduction to Computer Science I</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Prof K. Tuprah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">STAT 203 Statistical Methods  </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Prof K. Tuprah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">STAT 101 Introduction to Statistics </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Baobab R1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">R. Doh</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC357/INFT350 Project Planning and Management</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH/F</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">R. Doh</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT115 Information Technology Foundation I</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">06:00PM - 08:00PM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">R. Doh</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC117 Fundamentals of Computing Skills (Section A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">R. Doh</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC117 Fundamentals of Computing Skills (Section B)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Sabastien Shamo </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC450 Advanced Systems Analysis and Design </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH1-3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Sabastien Shamo </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC260 Structured Systems Analysis and Design </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">American High</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/T </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ACCT210 Introduction to Accounting </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Forest Block R1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT491 BEIT491 Final Year Project I</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">INFT492 /COSC492/BEIT492Final Year Project II</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W.O. Larkotey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC365 Research Method Seminar </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W.O. Larkotey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC280 Information Systems/INFT280 Information Technology Systems </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">09:45AM-11:45AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W.O. Larkotey</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">COSC245 Entrepreneurship </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CS1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P.S Ebenezer Quaye</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">RELB163 - Life and Teachings of Jesus (Sec C)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.J Nortey Auditorium</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M/TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">John Rhule</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">FREN121 - French for Oral Communication (Sec B)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E.G White Auditorium</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Annie Oye</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CMME115 - Introduction to Comunication Skills (Sec A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:30am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Delphine Bruce</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">SOCI105 - Principles of Sociology (Sec A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">03:00pm - 05.00pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah Kusi</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">PHSC105 Intro to Psychology</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">12:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W. Amankra Appiah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">PEAC100 - Phyiscal Activity</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">University Gym</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">2:00pm - 4:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">AFSTxxx African Studies - Group A</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">P.S A.Y.A. B-Coker</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">RELB251 - Principles of Christain Faith</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">J.J Nortey Auditorium</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">A. Amponsah Kusi</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">GNED230 Career Exploration and Planning</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">01:20pm - 02:20pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">AFSTxxx African Studies - Group B</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Oheneba Kofi Nti</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">HLTH200 Health Principles (Sec A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CH3-1&amp;2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">W</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">07:00am - 9:00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Patience Yamoah</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">MGNT234 - Principles of Management</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">T</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">10:00am - 12:30pm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Daniel Dei</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">RELT385 - Intro. To Biblical Foundation of Ethics (Sec A)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">E.G White Auditorium</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.00am</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TBA</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ACCT210 - Introduction to Accounting</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">TH</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">7:00am - 9.30am</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="47.4" ss:DefaultRowHeight="14.4">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

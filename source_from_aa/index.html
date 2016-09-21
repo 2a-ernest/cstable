@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>xml reader to json</title>
+</head>
+<style type="text/css">
+		.col-*{
+			float: left;
+			height: 1px;
+			display: block;
+		}
+
+		.col-2{
+			width: 8.33%;
+		}
+
+		.col-2{
+			width: 16.66%;
+		}
+
+		.col-3{
+			width: 23.99%;
+		}
+
+		.col-4{
+			width: 33.33%;
+		}
+
+		.col-5{
+			width: 41.66%;
+		}
+
+		.col-6{
+			width: 50%;
+		}
+	</style>
+<body>
+	
+	
+
+	<div class="course_json col-6"></div>
+
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js">
+</script>
+<script type="text/javascript">
+	
+	// alert('working now');
+	var courses = Array();
+	$.post('source_from_aa/Timetable2016.xml',null,null,'xml').then(function(res){
+			// console.log($(row));
+			$(res).find('Row').each(function(i,row){
+				
+					var tds = $(row).find('Cell');
+					var course = {
+						"lecturer": $(tds).eq(0).find('Data').eq(0).text(),
+						"course": $(tds).eq(1).find('Data').eq(0).text(),
+						"credit_hours": $(tds).eq(2).find('Data').eq(0).text(),
+						"location": $(tds).eq(3).find('Data').eq(0).text(),
+						"day": $(tds).eq(4).find('Data').eq(0).text(),
+						"time": $(tds).eq(5).find('Data').eq(0).text()
+					};
+
+					courses.push(course);
+					console.log(course);
+			
+			})
+			$('.course_json').text(JSON.stringify(courses));
+			console.log(JSON.stringify(courses));
+
+	},function(err){
+		console.log(err,'err');
+	});
+
+
+
+</script>
+</html>
