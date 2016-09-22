@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/flatty.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/js/mansonry-docs.css">
 
+
 	<!-- <style type="text/css">
 	center p, blockquote {
 		font-weight: 100px;
@@ -33,7 +34,7 @@
 
 	</style> -->
 </head>
-<body data-ng-app='webApp' >
+<body data-ng-app='webApp' ng-controller="ctrl" >
 
 	<div class="">
 		<!-- <div class="header">		
@@ -45,7 +46,7 @@
 		</div> -->
 
 		<div class="navbar navbar-default navbar-fixed-top" >
-		     <div class="container"style="padding-top: 10px;">
+		     <div class="container-fluid"style="padding-top: 10px;">
 		       <div class="navbar-header">
 		         <a href="/" class="navbar-brand"><span style="font-size:1.5em;">Cs Table</span></a>
 		       </div>
@@ -71,15 +72,38 @@
 
 			<!-- content -->
 			<!-- content here -->
-			<center class='content container' ng-controller="ctrl">
+			<div class='content container'>
 			
 				<div class="jumbotron" style="margin-top:90px; margin-bottom:110px;">
-					<h2>Cs Table</h2>
-					Checkout out your class schedule
+					<center>
+						<h2>Cs Table</h2>
+						Checkout out your class schedule
+					</center>
 				</div>
 
-				<div class="container">
-					<div class="table-responsive" style="margin-bottom:110px">
+
+			</div>
+
+
+				<div class="container-fluid" ng-cloak>
+					<div class="col-md-2 col-xs-12">
+						<form name="qForm" ng-sumbit='search_courses(search_string)'>
+							<div class="form-group">
+								<label>Courses</label>
+								<textarea rows="4" class="form-control" ng-required required ng-model='search_string' placeholder="Search by any column value. Separate multiple values with comma"></textarea>
+							</div>
+
+							<div class="form-group">
+								<button type="submit" class="btn btn-info form-control" ng-click='search_courses(search_string)'>Search by input</button>
+								<button class="btn btn-primary form-control" ng-click='clear()'>Clear</button>
+							</div>
+						</form>
+
+						
+					</div>
+
+					<!-- table start -->
+					<div class="table-responsive col-md-8 col-xs-12" style="margin-bottom:110px">
 			          <!-- <p><b>Search results {{votersFiltered.length}}</b></p> -->
 			           <table datatable='ng' dt-options='dT.dtOptions' dt-column-defs="dT.dtColumnDefs" class="table table-condensed table-striped table-hover table-bordered" >
 
@@ -92,7 +116,7 @@
 			               <th>Time</th>
 			             </thead>
 			             <tbody>
-				             <tr ng-repeat="sch in schedules">
+				             <tr ng-repeat="sch in schedules track by sch.course">
 				             	<td>{{sch.lecturer}}</td>
 				             	<td>{{sch.course}}</td>
 				             	<td>{{sch.credit_hours}}</td>
@@ -106,10 +130,14 @@
 			           </table>
 			           <span align-content"left">Total listed courses: {{schedules.length}}</span>
 			         </div>
+					<!-- table end -->
+
+					<div class="col-md-2  col-xs-12">
+						Parameters remembered: <br>
+						<span ng-repeat='param in search_string.split(",") track by $index'>{{$index + 1}} {{param}}<br></span>
+					</div>
 				</div>
 				
-
-			</center>
 			<!-- content end -->
 
 			<footer class="footer container-fluid">
@@ -122,7 +150,8 @@
 	<script type="text/javascript" src="bootstrap/js/jquery.js"></script>
 	<script type="text/javascript" src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
 
-	<script type="text/javascript" src="bootstrap/js/angular.js"></script>
+	<script type="text/javascript" src="bootstrap/js/angular.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/angular-cookies.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-datatables/0.5.5/plugins/bootstrap/angular-datatables.bootstrap.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-datatables/0.5.5/angular-datatables.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
