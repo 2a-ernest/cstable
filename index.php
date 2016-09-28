@@ -3,6 +3,7 @@
 <head >
 	<title>Cs Table</title>
 	<meta name="description" content="Timetable,class schedule,classes,times,schedule,courses,lecturers">
+	<meta name="viewport" content="width=device-width, initial-scale=2, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.superhero.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.cerulean.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-datatables/0.5.5/css/angular-datatables.min.css" />
@@ -103,7 +104,7 @@
 					</div>
 
 					<!-- table start -->
-					<div class="table-responsive col-md-8 col-xs-12" style="margin-bottom:110px">
+					<div class="table-responsive col-md-8 col-xs-12" >
 			          <!-- <p><b>Search results {{votersFiltered.length}}</b></p> -->
 			           <table datatable='ng' dt-options='dT.dtOptions' dt-column-defs="dT.dtColumnDefs" class="table table-condensed table-striped table-hover table-bordered" >
 
@@ -140,7 +141,7 @@
 				
 			<!-- content end -->
 
-			<footer class="footer container-fluid">
+			<footer class="footer container-fluid" style="margin-top:110px">
 				<div class="navbar navbar-fixed-bottom navbar-default"><h5><center style="    color: white;
     font-family: arieal;
     font-size: 2.3em;">Malleable [ IcaSoft ]</center></h5></div>
